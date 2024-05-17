@@ -1,0 +1,761 @@
+[0.000000] (-) TimerEvent: {}
+[0.000322] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.000418] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[0.010934] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'cmake'}
+[0.011074] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '/home/ggmc/Documents/Prova1M6/src/ros_tutorials/turtlesim', '-DCMAKE_INSTALL_PREFIX=/home/ggmc/Documents/Prova1M6/install/turtlesim'], 'cwd': '/home/ggmc/Documents/Prova1M6/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ggmc'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ggmc'), ('OLDPWD', '/home/ggmc/Documents/Prova1M6/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '1586'), ('GOROOT', '/usr/local/go'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ggmc'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ggmc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ggmc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/go/bin:/home/ggmc/go/bin'), ('SESSION_MANAGER', 'local/ggmc-Latitude-5420:@/tmp/.ICE-unix/1556,unix/ggmc-Latitude-5420:/tmp/.ICE-unix/1556'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1aa5bfc6_3a74_4d49_acb3_0320d821e976'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.IDYRN2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '86'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('GOPATH', '/home/ggmc/go'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ggmc/Documents/Prova1M6/build/turtlesim'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099952] (-) TimerEvent: {}
+[0.200384] (-) TimerEvent: {}
+[0.300702] (-) TimerEvent: {}
+[0.324827] (turtlesim) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.400817] (-) TimerEvent: {}
+[0.499109] (turtlesim) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.500886] (-) TimerEvent: {}
+[0.525097] (turtlesim) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.600985] (-) TimerEvent: {}
+[0.615312] (turtlesim) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.624092] (turtlesim) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.627144] (turtlesim) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.630498] (turtlesim) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.634874] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.701116] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.701288] (-) TimerEvent: {}
+[0.707288] (turtlesim) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.707499] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.707742] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.720642] (turtlesim) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.801414] (-) TimerEvent: {}
+[0.848567] (turtlesim) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.901604] (-) TimerEvent: {}
+[0.960440] (turtlesim) StdoutLine: {'line': b'-- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)\n'}
+[0.964179] (turtlesim) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.001779] (-) TimerEvent: {}
+[1.025216] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.033311] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.048474] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.072969] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.099382] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.101853] (-) TimerEvent: {}
+[1.202050] (-) TimerEvent: {}
+[1.266212] (turtlesim) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.302182] (-) TimerEvent: {}
+[1.343198] (turtlesim) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.348754] (turtlesim) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[1.400576] (turtlesim) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[1.402278] (-) TimerEvent: {}
+[1.416113] (turtlesim) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.502380] (-) TimerEvent: {}
+[1.511172] (turtlesim) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.511303] (turtlesim) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.592849] (turtlesim) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.593641] (turtlesim) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.602513] (-) TimerEvent: {}
+[1.702809] (-) TimerEvent: {}
+[1.719764] (turtlesim) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.8 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[1.803036] (-) TimerEvent: {}
+[1.815914] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.829485] (turtlesim) StdoutLine: {'line': b'-- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[1.903151] (-) TimerEvent: {}
+[2.003443] (-) TimerEvent: {}
+[2.103791] (-) TimerEvent: {}
+[2.108338] (turtlesim) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.203900] (-) TimerEvent: {}
+[2.304173] (-) TimerEvent: {}
+[2.404433] (-) TimerEvent: {}
+[2.504358] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.504506] (-) TimerEvent: {}
+[2.598039] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.604637] (-) TimerEvent: {}
+[2.614647] (turtlesim) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[2.617507] (turtlesim) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.639061] (turtlesim) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[2.639242] (turtlesim) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.639310] (turtlesim) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.639370] (turtlesim) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.653488] (turtlesim) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.700969] (turtlesim) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.706378] (-) TimerEvent: {}
+[2.782097] (turtlesim) StdoutLine: {'line': b'-- Generating done\n'}
+[2.785281] (turtlesim) StdoutLine: {'line': b'-- Build files have been written to: /home/ggmc/Documents/Prova1M6/build/turtlesim\n'}
+[2.794959] (turtlesim) CommandEnded: {'returncode': 0}
+[2.795396] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'build'}
+[2.795965] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ggmc/Documents/Prova1M6/build/turtlesim', '--', '-j8', '-l8'], 'cwd': '/home/ggmc/Documents/Prova1M6/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ggmc'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ggmc'), ('OLDPWD', '/home/ggmc/Documents/Prova1M6/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '1586'), ('GOROOT', '/usr/local/go'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ggmc'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ggmc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ggmc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/go/bin:/home/ggmc/go/bin'), ('SESSION_MANAGER', 'local/ggmc-Latitude-5420:@/tmp/.ICE-unix/1556,unix/ggmc-Latitude-5420:/tmp/.ICE-unix/1556'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1aa5bfc6_3a74_4d49_acb3_0320d821e976'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.IDYRN2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '86'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('GOPATH', '/home/ggmc/go'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ggmc/Documents/Prova1M6/build/turtlesim'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.806652] (-) TimerEvent: {}
+[2.826026] (turtlesim) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.833530] (turtlesim) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.839681] (turtlesim) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_turtlesim\n'}
+[2.906761] (-) TimerEvent: {}
+[3.007767] (-) TimerEvent: {}
+[3.040427] (turtlesim) StdoutLine: {'line': b'running egg_info\n'}
+[3.040777] (turtlesim) StdoutLine: {'line': b'creating turtlesim.egg-info\n'}
+[3.040951] (turtlesim) StdoutLine: {'line': b'writing turtlesim.egg-info/PKG-INFO\n'}
+[3.041243] (turtlesim) StdoutLine: {'line': b'writing dependency_links to turtlesim.egg-info/dependency_links.txt\n'}
+[3.041351] (turtlesim) StdoutLine: {'line': b'writing top-level names to turtlesim.egg-info/top_level.txt\n'}
+[3.041402] (turtlesim) StdoutLine: {'line': b"writing manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[3.045384] (turtlesim) StdoutLine: {'line': b"reading manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[3.046002] (turtlesim) StdoutLine: {'line': b"writing manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[3.069817] (turtlesim) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_build_turtlesim_egg\n'}
+[3.107932] (-) TimerEvent: {}
+[3.208280] (-) TimerEvent: {}
+[3.308546] (-) TimerEvent: {}
+[3.408810] (-) TimerEvent: {}
+[3.509070] (-) TimerEvent: {}
+[3.609324] (-) TimerEvent: {}
+[3.709584] (-) TimerEvent: {}
+[3.751335] (turtlesim) StdoutLine: {'line': b'[  2%] Built target turtlesim__cpp\n'}
+[3.761791] (turtlesim) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.762053] (turtlesim) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.781668] (turtlesim) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.798178] (turtlesim) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/action/detail/rotate_absolute__functions.c.o\x1b[0m\n'}
+[3.798375] (turtlesim) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/msg/detail/color__functions.c.o\x1b[0m\n'}
+[3.798529] (turtlesim) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/kill__functions.c.o\x1b[0m\n'}
+[3.803420] (turtlesim) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/set_pen__functions.c.o\x1b[0m\n'}
+[3.803708] (turtlesim) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/msg/detail/pose__functions.c.o\x1b[0m\n'}
+[3.809692] (-) TimerEvent: {}
+[3.883500] (turtlesim) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/spawn__functions.c.o\x1b[0m\n'}
+[3.890081] (turtlesim) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/teleport_absolute__functions.c.o\x1b[0m\n'}
+[3.892271] (turtlesim) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/teleport_relative__functions.c.o\x1b[0m\n'}
+[3.909800] (-) TimerEvent: {}
+[4.010201] (-) TimerEvent: {}
+[4.110686] (-) TimerEvent: {}
+[4.211279] (-) TimerEvent: {}
+[4.311754] (-) TimerEvent: {}
+[4.412305] (-) TimerEvent: {}
+[4.436823] (turtlesim) StdoutLine: {'line': b'[ 14%] \x1b[32m\x1b[1mLinking C shared library libturtlesim__rosidl_generator_c.so\x1b[0m\n'}
+[4.512514] (-) TimerEvent: {}
+[4.612939] (-) TimerEvent: {}
+[4.713383] (-) TimerEvent: {}
+[4.906267] (-) TimerEvent: {}
+[5.006552] (-) TimerEvent: {}
+[5.020327] (turtlesim) StdoutLine: {'line': b'[ 14%] Built target turtlesim__rosidl_generator_c\n'}
+[5.028153] (turtlesim) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.033733] (turtlesim) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[5.033991] (turtlesim) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.106656] (-) TimerEvent: {}
+[5.160961] (turtlesim) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/msg/color__type_support.cpp.o\x1b[0m\n'}
+[5.161822] (turtlesim) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/msg/pose__type_support.cpp.o\x1b[0m\n'}
+[5.162642] (turtlesim) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/action/rotate_absolute__type_support.cpp.o\x1b[0m\n'}
+[5.206747] (-) TimerEvent: {}
+[5.307053] (-) TimerEvent: {}
+[5.407323] (-) TimerEvent: {}
+[5.507623] (-) TimerEvent: {}
+[5.602726] (turtlesim) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/set_pen__type_support.cpp.o\x1b[0m\n'}
+[5.602920] (turtlesim) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/kill__type_support.cpp.o\x1b[0m\n'}
+[5.607727] (-) TimerEvent: {}
+[5.674061] (turtlesim) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/action/detail/rotate_absolute__type_support.cpp.o\x1b[0m\n'}
+[5.707843] (-) TimerEvent: {}
+[5.751480] (turtlesim) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/action/rotate_absolute__type_support.cpp.o\x1b[0m\n'}
+[5.808956] (-) TimerEvent: {}
+[5.844603] (turtlesim) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/msg/detail/color__type_support.cpp.o\x1b[0m\n'}
+[5.852869] (turtlesim) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/msg/color__type_support.cpp.o\x1b[0m\n'}
+[5.904883] (turtlesim) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/msg/pose__type_support.cpp.o\x1b[0m\n'}
+[5.906298] (turtlesim) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/spawn__type_support.cpp.o\x1b[0m\n'}
+[5.909059] (-) TimerEvent: {}
+[5.911908] (turtlesim) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/teleport_absolute__type_support.cpp.o\x1b[0m\n'}
+[5.921250] (turtlesim) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/action/detail/dds_fastrtps/rotate_absolute__type_support.cpp.o\x1b[0m\n'}
+[5.957096] (turtlesim) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/kill__type_support.cpp.o\x1b[0m\n'}
+[6.000902] (turtlesim) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/set_pen__type_support.cpp.o\x1b[0m\n'}
+[6.009186] (-) TimerEvent: {}
+[6.036000] (turtlesim) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/spawn__type_support.cpp.o\x1b[0m\n'}
+[6.092922] (turtlesim) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/action/detail/rotate_absolute__type_support.c.o\x1b[0m\n'}
+[6.109301] (-) TimerEvent: {}
+[6.141397] (turtlesim) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/action/detail/rotate_absolute__type_support_c.cpp.o\x1b[0m\n'}
+[6.209420] (-) TimerEvent: {}
+[6.247205] (turtlesim) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/msg/detail/color__type_support.c.o\x1b[0m\n'}
+[6.247871] (turtlesim) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/teleport_absolute__type_support.cpp.o\x1b[0m\n'}
+[6.252072] (turtlesim) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/msg/detail/dds_fastrtps/color__type_support.cpp.o\x1b[0m\n'}
+[6.253682] (turtlesim) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/teleport_relative__type_support.cpp.o\x1b[0m\n'}
+[6.309543] (-) TimerEvent: {}
+[6.339820] (turtlesim) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/teleport_relative__type_support.cpp.o\x1b[0m\n'}
+[6.340086] (turtlesim) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/msg/detail/pose__type_support.c.o\x1b[0m\n'}
+[6.351575] (turtlesim) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/kill__type_support.c.o\x1b[0m\n'}
+[6.376985] (turtlesim) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_c.so\x1b[0m\n'}
+[6.381489] (turtlesim) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/msg/detail/color__type_support_c.cpp.o\x1b[0m\n'}
+[6.395959] (turtlesim) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/set_pen__type_support.c.o\x1b[0m\n'}
+[6.409659] (-) TimerEvent: {}
+[6.419547] (turtlesim) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/msg/detail/pose__type_support.cpp.o\x1b[0m\n'}
+[6.447745] (turtlesim) StdoutLine: {'line': b'[ 46%] Built target turtlesim__rosidl_typesupport_c\n'}
+[6.459418] (turtlesim) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/spawn__type_support.c.o\x1b[0m\n'}
+[6.474511] (turtlesim) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/teleport_absolute__type_support.c.o\x1b[0m\n'}
+[6.509085] (turtlesim) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/msg/detail/dds_fastrtps/pose__type_support.cpp.o\x1b[0m\n'}
+[6.509724] (-) TimerEvent: {}
+[6.533241] (turtlesim) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/kill__type_support.cpp.o\x1b[0m\n'}
+[6.536414] (turtlesim) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/teleport_relative__type_support.c.o\x1b[0m\n'}
+[6.547017] (turtlesim) StdoutLine: {'line': b'[ 52%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[6.594674] (turtlesim) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking C shared library libturtlesim__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[6.609850] (-) TimerEvent: {}
+[6.644016] (turtlesim) StdoutLine: {'line': b'[ 53%] Built target turtlesim__rosidl_typesupport_introspection_c\n'}
+[6.655252] (turtlesim) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/set_pen__type_support.cpp.o\x1b[0m\n'}
+[6.664258] (turtlesim) StdoutLine: {'line': b'[ 54%] Built target turtlesim__rosidl_typesupport_cpp\n'}
+[6.680205] (turtlesim) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/kill__type_support.cpp.o\x1b[0m\n'}
+[6.681711] (turtlesim) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/set_pen__type_support.cpp.o\x1b[0m\n'}
+[6.709964] (-) TimerEvent: {}
+[6.752459] (turtlesim) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/spawn__type_support.cpp.o\x1b[0m\n'}
+[6.782560] (turtlesim) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/msg/detail/pose__type_support_c.cpp.o\x1b[0m\n'}
+[6.810090] (-) TimerEvent: {}
+[6.910505] (-) TimerEvent: {}
+[6.918011] (turtlesim) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/spawn__type_support.cpp.o\x1b[0m\n'}
+[6.997157] (turtlesim) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/kill__type_support_c.cpp.o\x1b[0m\n'}
+[7.010628] (-) TimerEvent: {}
+[7.011747] (turtlesim) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/teleport_absolute__type_support.cpp.o\x1b[0m\n'}
+[7.110745] (-) TimerEvent: {}
+[7.171929] (turtlesim) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/teleport_absolute__type_support.cpp.o\x1b[0m\n'}
+[7.174047] (turtlesim) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/set_pen__type_support_c.cpp.o\x1b[0m\n'}
+[7.174881] (turtlesim) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/teleport_relative__type_support.cpp.o\x1b[0m\n'}
+[7.210857] (-) TimerEvent: {}
+[7.231135] (turtlesim) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/spawn__type_support_c.cpp.o\x1b[0m\n'}
+[7.251869] (turtlesim) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/teleport_absolute__type_support_c.cpp.o\x1b[0m\n'}
+[7.313329] (-) TimerEvent: {}
+[7.370817] (turtlesim) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/teleport_relative__type_support.cpp.o\x1b[0m\n'}
+[7.396809] (turtlesim) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/teleport_relative__type_support_c.cpp.o\x1b[0m\n'}
+[7.413449] (-) TimerEvent: {}
+[7.490192] (turtlesim) StdoutLine: {'line': b'[ 69%] \x1b[34m\x1b[1mGenerating include/turtlesim/moc_turtle_frame.cpp\x1b[0m\n'}
+[7.513564] (-) TimerEvent: {}
+[7.596398] (turtlesim) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/turtle_teleop_key.dir/tutorials/teleop_turtle_key.cpp.o\x1b[0m\n'}
+[7.604235] (turtlesim) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/draw_square.dir/tutorials/draw_square.cpp.o\x1b[0m\n'}
+[7.613683] (-) TimerEvent: {}
+[7.632371] (turtlesim) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[7.654954] (turtlesim) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtlesim.cpp.o\x1b[0m\n'}
+[7.662138] (turtlesim) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle.cpp.o\x1b[0m\n'}
+[7.679217] (turtlesim) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/mimic.dir/tutorials/mimic.cpp.o\x1b[0m\n'}
+[7.713794] (-) TimerEvent: {}
+[7.750469] (turtlesim) StdoutLine: {'line': b'[ 75%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp\n'}
+[7.762080] (turtlesim) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[7.762288] (turtlesim) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle_frame.cpp.o\x1b[0m\n'}
+[7.782187] (turtlesim) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[7.813921] (-) TimerEvent: {}
+[7.868720] (turtlesim) StdoutLine: {'line': b'[ 78%] Built target turtlesim__rosidl_typesupport_fastrtps_c\n'}
+[7.872169] (turtlesim) StdoutLine: {'line': b'[ 78%] Built target turtlesim__rosidl_typesupport_introspection_cpp\n'}
+[7.876444] (turtlesim) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/include/turtlesim/moc_turtle_frame.cpp.o\x1b[0m\n'}
+[7.890825] (turtlesim) StdoutLine: {'line': b'[ 79%] Built target turtlesim\n'}
+[7.906859] (turtlesim) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[7.914010] (-) TimerEvent: {}
+[8.014386] (-) TimerEvent: {}
+[8.117254] (-) TimerEvent: {}
+[8.217579] (-) TimerEvent: {}
+[8.317914] (-) TimerEvent: {}
+[8.418271] (-) TimerEvent: {}
+[8.518611] (-) TimerEvent: {}
+[8.618953] (-) TimerEvent: {}
+[8.719634] (-) TimerEvent: {}
+[8.819969] (-) TimerEvent: {}
+[8.920287] (-) TimerEvent: {}
+[9.020621] (-) TimerEvent: {}
+[9.121103] (-) TimerEvent: {}
+[9.221654] (-) TimerEvent: {}
+[9.325410] (-) TimerEvent: {}
+[9.426053] (-) TimerEvent: {}
+[9.526400] (-) TimerEvent: {}
+[9.626743] (-) TimerEvent: {}
+[9.727167] (-) TimerEvent: {}
+[9.827507] (-) TimerEvent: {}
+[9.927961] (-) TimerEvent: {}
+[10.028270] (-) TimerEvent: {}
+[10.128609] (-) TimerEvent: {}
+[10.229041] (-) TimerEvent: {}
+[10.329388] (-) TimerEvent: {}
+[10.429762] (-) TimerEvent: {}
+[10.530315] (-) TimerEvent: {}
+[10.630713] (-) TimerEvent: {}
+[10.678648] (turtlesim) StdoutLine: {'line': b'[ 80%] Built target turtlesim__py\n'}
+[10.716181] (turtlesim) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/action/_rotate_absolute_s.c.o\x1b[0m\n'}
+[10.730834] (-) TimerEvent: {}
+[10.831184] (-) TimerEvent: {}
+[10.931713] (-) TimerEvent: {}
+[10.998488] (turtlesim) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/msg/_color_s.c.o\x1b[0m\n'}
+[11.031839] (-) TimerEvent: {}
+[11.132206] (-) TimerEvent: {}
+[11.132804] (turtlesim) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/msg/_pose_s.c.o\x1b[0m\n'}
+[11.232348] (-) TimerEvent: {}
+[11.277495] (turtlesim) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_kill_s.c.o\x1b[0m\n'}
+[11.332459] (-) TimerEvent: {}
+[11.434553] (-) TimerEvent: {}
+[11.436529] (turtlesim) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_set_pen_s.c.o\x1b[0m\n'}
+[11.534665] (-) TimerEvent: {}
+[11.606785] (turtlesim) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_spawn_s.c.o\x1b[0m\n'}
+[11.636921] (-) TimerEvent: {}
+[11.737336] (-) TimerEvent: {}
+[11.754984] (turtlesim) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_teleport_absolute_s.c.o\x1b[0m\n'}
+[11.837451] (-) TimerEvent: {}
+[11.888258] (turtlesim) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_teleport_relative_s.c.o\x1b[0m\n'}
+[11.937570] (-) TimerEvent: {}
+[12.037951] (-) TimerEvent: {}
+[12.056807] (turtlesim) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlesim/libturtlesim__rosidl_generator_py.so\x1b[0m\n'}
+[12.138071] (-) TimerEvent: {}
+[12.142476] (turtlesim) StdoutLine: {'line': b'[ 89%] Built target turtlesim__rosidl_generator_py\n'}
+[12.165443] (turtlesim) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[12.241427] (-) TimerEvent: {}
+[12.341795] (-) TimerEvent: {}
+[12.442272] (-) TimerEvent: {}
+[12.444842] (turtlesim) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[12.495673] (turtlesim) StdoutLine: {'line': b'[ 91%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext\n'}
+[12.520672] (turtlesim) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[12.542377] (-) TimerEvent: {}
+[12.642833] (-) TimerEvent: {}
+[12.743386] (-) TimerEvent: {}
+[12.826290] (turtlesim) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[12.843509] (-) TimerEvent: {}
+[12.881189] (turtlesim) StdoutLine: {'line': b'[ 93%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext\n'}
+[12.910035] (turtlesim) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[12.943631] (-) TimerEvent: {}
+[13.044021] (-) TimerEvent: {}
+[13.144532] (-) TimerEvent: {}
+[13.147883] (turtlesim) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[13.204208] (turtlesim) StdoutLine: {'line': b'[ 95%] Built target turtlesim__rosidl_typesupport_c__pyext\n'}
+[13.244652] (-) TimerEvent: {}
+[13.345087] (-) TimerEvent: {}
+[13.445440] (-) TimerEvent: {}
+[13.545906] (-) TimerEvent: {}
+[13.646370] (-) TimerEvent: {}
+[13.746705] (-) TimerEvent: {}
+[13.847139] (-) TimerEvent: {}
+[13.947497] (-) TimerEvent: {}
+[14.047865] (-) TimerEvent: {}
+[14.148236] (-) TimerEvent: {}
+[14.248614] (-) TimerEvent: {}
+[14.348944] (-) TimerEvent: {}
+[14.450154] (-) TimerEvent: {}
+[14.550525] (-) TimerEvent: {}
+[14.650921] (-) TimerEvent: {}
+[14.751418] (-) TimerEvent: {}
+[14.851751] (-) TimerEvent: {}
+[14.952107] (-) TimerEvent: {}
+[15.025692] (turtlesim) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX executable turtle_teleop_key\x1b[0m\n'}
+[15.052223] (-) TimerEvent: {}
+[15.152722] (-) TimerEvent: {}
+[15.253058] (-) TimerEvent: {}
+[15.353435] (-) TimerEvent: {}
+[15.453788] (-) TimerEvent: {}
+[15.487289] (turtlesim) StdoutLine: {'line': b'[ 96%] Built target turtle_teleop_key\n'}
+[15.553925] (-) TimerEvent: {}
+[15.654368] (-) TimerEvent: {}
+[15.754750] (-) TimerEvent: {}
+[15.855121] (-) TimerEvent: {}
+[15.955457] (-) TimerEvent: {}
+[16.055836] (-) TimerEvent: {}
+[16.156220] (-) TimerEvent: {}
+[16.256555] (-) TimerEvent: {}
+[16.356890] (-) TimerEvent: {}
+[16.457289] (-) TimerEvent: {}
+[16.557635] (-) TimerEvent: {}
+[16.657969] (-) TimerEvent: {}
+[16.758348] (-) TimerEvent: {}
+[16.858749] (-) TimerEvent: {}
+[16.959102] (-) TimerEvent: {}
+[17.059500] (-) TimerEvent: {}
+[17.159855] (-) TimerEvent: {}
+[17.260239] (-) TimerEvent: {}
+[17.360683] (-) TimerEvent: {}
+[17.461092] (-) TimerEvent: {}
+[17.531997] (turtlesim) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX executable mimic\x1b[0m\n'}
+[17.561218] (-) TimerEvent: {}
+[17.661567] (-) TimerEvent: {}
+[17.761889] (-) TimerEvent: {}
+[17.862202] (-) TimerEvent: {}
+[17.950416] (turtlesim) StdoutLine: {'line': b'[ 97%] Built target mimic\n'}
+[17.962391] (-) TimerEvent: {}
+[18.062666] (-) TimerEvent: {}
+[18.163003] (-) TimerEvent: {}
+[18.263356] (-) TimerEvent: {}
+[18.363770] (-) TimerEvent: {}
+[18.464114] (-) TimerEvent: {}
+[18.564464] (-) TimerEvent: {}
+[18.577440] (turtlesim) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking CXX executable draw_square\x1b[0m\n'}
+[18.664573] (-) TimerEvent: {}
+[18.764869] (-) TimerEvent: {}
+[18.865157] (-) TimerEvent: {}
+[18.965504] (-) TimerEvent: {}
+[18.981672] (turtlesim) StdoutLine: {'line': b'[ 98%] Built target draw_square\n'}
+[19.065690] (-) TimerEvent: {}
+[19.166041] (-) TimerEvent: {}
+[19.266402] (-) TimerEvent: {}
+[19.366750] (-) TimerEvent: {}
+[19.467030] (-) TimerEvent: {}
+[19.567358] (-) TimerEvent: {}
+[19.667737] (-) TimerEvent: {}
+[19.767995] (-) TimerEvent: {}
+[19.868317] (-) TimerEvent: {}
+[19.968801] (-) TimerEvent: {}
+[20.069300] (-) TimerEvent: {}
+[20.169948] (-) TimerEvent: {}
+[20.270612] (-) TimerEvent: {}
+[20.371230] (-) TimerEvent: {}
+[20.471775] (-) TimerEvent: {}
+[20.572166] (-) TimerEvent: {}
+[20.672598] (-) TimerEvent: {}
+[20.773006] (-) TimerEvent: {}
+[20.873425] (-) TimerEvent: {}
+[20.973774] (-) TimerEvent: {}
+[21.074353] (-) TimerEvent: {}
+[21.174941] (-) TimerEvent: {}
+[21.275552] (-) TimerEvent: {}
+[21.376067] (-) TimerEvent: {}
+[21.476438] (-) TimerEvent: {}
+[21.576696] (-) TimerEvent: {}
+[21.677050] (-) TimerEvent: {}
+[21.777400] (-) TimerEvent: {}
+[21.877789] (-) TimerEvent: {}
+[21.943760] (turtlesim) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtlesim_node\x1b[0m\n'}
+[21.977990] (-) TimerEvent: {}
+[22.078351] (-) TimerEvent: {}
+[22.178680] (-) TimerEvent: {}
+[22.278965] (-) TimerEvent: {}
+[22.379492] (-) TimerEvent: {}
+[22.479955] (-) TimerEvent: {}
+[22.580381] (-) TimerEvent: {}
+[22.680729] (-) TimerEvent: {}
+[22.781105] (-) TimerEvent: {}
+[22.881550] (-) TimerEvent: {}
+[22.981989] (-) TimerEvent: {}
+[23.082360] (-) TimerEvent: {}
+[23.182755] (-) TimerEvent: {}
+[23.283142] (-) TimerEvent: {}
+[23.383538] (-) TimerEvent: {}
+[23.483928] (-) TimerEvent: {}
+[23.584358] (-) TimerEvent: {}
+[23.684736] (-) TimerEvent: {}
+[23.785102] (-) TimerEvent: {}
+[23.860831] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtlesim_node\n'}
+[23.885229] (turtlesim) CommandEnded: {'returncode': 0}
+[23.886414] (-) TimerEvent: {}
+[23.986704] (-) TimerEvent: {}
+[24.015102] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'install'}
+[24.024354] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ggmc/Documents/Prova1M6/build/turtlesim'], 'cwd': '/home/ggmc/Documents/Prova1M6/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ggmc'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ggmc'), ('OLDPWD', '/home/ggmc/Documents/Prova1M6/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '1586'), ('GOROOT', '/usr/local/go'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ggmc'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ggmc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ggmc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/go/bin:/home/ggmc/go/bin'), ('SESSION_MANAGER', 'local/ggmc-Latitude-5420:@/tmp/.ICE-unix/1556,unix/ggmc-Latitude-5420:/tmp/.ICE-unix/1556'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1aa5bfc6_3a74_4d49_acb3_0320d821e976'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.IDYRN2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '86'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('GOPATH', '/home/ggmc/go'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ggmc/Documents/Prova1M6/build/turtlesim'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[24.027716] (turtlesim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[24.028794] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/ament_index/resource_index/rosidl_interfaces/turtlesim\n'}
+[24.028941] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim\n'}
+[24.029026] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[24.029076] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.h\n'}
+[24.029157] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/kill.h\n'}
+[24.029204] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.h\n'}
+[24.029251] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.h\n'}
+[24.029357] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.h\n'}
+[24.029414] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[24.029460] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.h\n'}
+[24.029536] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.c\n'}
+[24.029585] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.h\n'}
+[24.029654] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.h\n'}
+[24.029720] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.h\n'}
+[24.029786] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.h\n'}
+[24.029844] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.h\n'}
+[24.029917] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.h\n'}
+[24.029981] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.c\n'}
+[24.030047] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.h\n'}
+[24.030113] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.h\n'}
+[24.030186] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.h\n'}
+[24.030242] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.c\n'}
+[24.030345] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.h\n'}
+[24.035549] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.h\n'}
+[24.035627] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.h\n'}
+[24.035700] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.h\n'}
+[24.035772] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.c\n'}
+[24.035853] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.h\n'}
+[24.035940] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.c\n'}
+[24.036008] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[24.036080] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/msg/pose.h\n'}
+[24.036144] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/msg/color.h\n'}
+[24.036208] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_generator_c__visibility_control.h\n'}
+[24.036274] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[24.036342] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.h\n'}
+[24.036411] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.c\n'}
+[24.036468] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.h\n'}
+[24.036531] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.h\n'}
+[24.036588] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.c\n'}
+[24.036651] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.h\n'}
+[24.036717] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.h\n'}
+[24.036782] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.h\n'}
+[24.036840] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[24.036908] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[24.036975] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.h\n'}
+[24.037041] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.h\n'}
+[24.037106] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.h\n'}
+[24.037170] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.c\n'}
+[24.037276] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.h\n'}
+[24.037417] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/environment/library_path.sh\n'}
+[24.037486] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/environment/library_path.dsv\n'}
+[24.037592] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so\n'}
+[24.037828] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/ggmc/Documents/Prova1M6/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so" to ""\n'}
+[24.037902] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim\n'}
+[24.037955] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[24.038050] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[24.038105] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[24.038169] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h\n'}
+[24.038241] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_c.h\n'}
+[24.038299] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h\n'}
+[24.045162] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h\n'}
+[24.045342] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[24.045420] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[24.045512] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[24.045574] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_c.h\n'}
+[24.045627] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_c.h\n'}
+[24.045689] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[24.045743] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[24.045795] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[24.045849] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so\n'}
+[24.045911] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/ggmc/Documents/Prova1M6/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[24.045984] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim\n'}
+[24.046036] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[24.046096] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.hpp\n'}
+[24.046149] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/kill.hpp\n'}
+[24.046202] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.hpp\n'}
+[24.046255] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.hpp\n'}
+[24.046310] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[24.046369] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__traits.hpp\n'}
+[24.046416] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__builder.hpp\n'}
+[24.046469] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__builder.hpp\n'}
+[24.046523] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__traits.hpp\n'}
+[24.046582] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.hpp\n'}
+[24.046636] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__traits.hpp\n'}
+[24.046689] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__builder.hpp\n'}
+[24.046742] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__builder.hpp\n'}
+[24.046795] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.hpp\n'}
+[24.046840] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__traits.hpp\n'}
+[24.046900] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.hpp\n'}
+[24.046957] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__builder.hpp\n'}
+[24.047003] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__traits.hpp\n'}
+[24.047056] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.hpp\n'}
+[24.047113] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.hpp\n'}
+[24.047174] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.hpp\n'}
+[24.047226] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[24.047280] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/msg/color.hpp\n'}
+[24.047333] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/msg/pose.hpp\n'}
+[24.047395] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[24.047449] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.hpp\n'}
+[24.047510] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.hpp\n'}
+[24.047572] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__traits.hpp\n'}
+[24.047620] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__traits.hpp\n'}
+[24.047667] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__builder.hpp\n'}
+[24.047713] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__builder.hpp\n'}
+[24.047760] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[24.047819] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.hpp\n'}
+[24.047867] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[24.047931] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.hpp\n'}
+[24.047985] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__traits.hpp\n'}
+[24.048036] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__builder.hpp\n'}
+[24.048090] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim\n'}
+[24.048145] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[24.048191] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[24.048245] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[24.048309] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[24.048358] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[24.048417] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[24.048464] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[24.048515] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/detail/dds_fastrtps\n'}
+[24.048561] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[24.048613] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[24.048680] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[24.048734] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[24.048794] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[24.048851] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/msg/detail/dds_fastrtps\n'}
+[24.048898] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[24.048944] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[24.048988] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[24.049034] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/action/detail/dds_fastrtps\n'}
+[24.049084] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so\n'}
+[24.049154] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/ggmc/Documents/Prova1M6/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[24.049238] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim\n'}
+[24.049299] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[24.049345] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[24.049393] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.c\n'}
+[24.049441] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_c.h\n'}
+[24.049491] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_c.h\n'}
+[24.049562] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h\n'}
+[24.049639] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h\n'}
+[24.049689] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.c\n'}
+[24.049738] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.c\n'}
+[24.049802] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_c.h\n'}
+[24.049850] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.c\n'}
+[24.049913] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.c\n'}
+[24.049962] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[24.050023] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[24.050069] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[24.050121] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.c\n'}
+[24.050168] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_c.h\n'}
+[24.050222] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_c.h\n'}
+[24.050280] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.c\n'}
+[24.050354] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[24.050411] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[24.050485] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.c\n'}
+[24.050562] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h\n'}
+[24.050708] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so\n'}
+[24.051353] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/ggmc/Documents/Prova1M6/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so" to ""\n'}
+[24.051434] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so\n'}
+[24.051491] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/ggmc/Documents/Prova1M6/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so" to ""\n'}
+[24.051552] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim\n'}
+[24.051658] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[24.051743] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[24.051787] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp\n'}
+[24.051832] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp\n'}
+[24.051874] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp\n'}
+[24.051915] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.cpp\n'}
+[24.051956] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.cpp\n'}
+[24.052034] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.cpp\n'}
+[24.052073] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.cpp\n'}
+[24.052113] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.cpp\n'}
+[24.052174] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[24.052214] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp\n'}
+[24.052252] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[24.052314] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[24.052364] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[24.052403] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.cpp\n'}
+[24.052441] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp\n'}
+[24.052490] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.cpp\n'}
+[24.052709] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[24.052767] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[24.052806] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[24.052862] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.cpp\n'}
+[24.052915] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so\n'}
+[24.053060] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/ggmc/Documents/Prova1M6/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[24.053116] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so\n'}
+[24.053302] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/ggmc/Documents/Prova1M6/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so" to ""\n'}
+[24.053392] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/environment/pythonpath.sh\n'}
+[24.053489] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/environment/pythonpath.dsv\n'}
+[24.053561] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info\n'}
+[24.053619] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/SOURCES.txt\n'}
+[24.054152] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/top_level.txt\n'}
+[24.054222] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/dependency_links.txt\n'}
+[24.054284] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/PKG-INFO\n'}
+[24.054372] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim\n'}
+[24.054447] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv\n'}
+[24.054507] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen_s.c\n'}
+[24.054572] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative_s.c\n'}
+[24.054643] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill_s.c\n'}
+[24.054702] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/__init__.py\n'}
+[24.054762] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn.py\n'}
+[24.054814] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute.py\n'}
+[24.054864] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative.py\n'}
+[24.054914] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute_s.c\n'}
+[24.054983] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen.py\n'}
+[24.055066] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn_s.c\n'}
+[24.055153] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill.py\n'}
+[24.055234] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg\n'}
+[24.055322] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose_s.c\n'}
+[24.055408] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color_s.c\n'}
+[24.055484] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/__init__.py\n'}
+[24.055547] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color.py\n'}
+[24.055635] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose.py\n'}
+[24.055691] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c\n'}
+[24.055746] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/__init__.py\n'}
+[24.055789] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[24.055849] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[24.055892] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[24.055993] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action\n'}
+[24.056044] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/__init__.py\n'}
+[24.056098] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute.py\n'}
+[24.056174] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute_s.c\n'}
+[24.056253] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[24.056372] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[24.056495] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/libturtlesim__rosidl_generator_py.so\n'}
+[24.086881] (-) TimerEvent: {}
+[24.089839] (turtlesim) StdoutLine: {'line': b"Listing '/home/ggmc/Documents/Prova1M6/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim'...\n"}
+[24.090007] (turtlesim) StdoutLine: {'line': b"Compiling '/home/ggmc/Documents/Prova1M6/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/__init__.py'...\n"}
+[24.090059] (turtlesim) StdoutLine: {'line': b"Listing '/home/ggmc/Documents/Prova1M6/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action'...\n"}
+[24.090104] (turtlesim) StdoutLine: {'line': b"Compiling '/home/ggmc/Documents/Prova1M6/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/__init__.py'...\n"}
+[24.090164] (turtlesim) StdoutLine: {'line': b"Compiling '/home/ggmc/Documents/Prova1M6/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute.py'...\n"}
+[24.090208] (turtlesim) StdoutLine: {'line': b"Listing '/home/ggmc/Documents/Prova1M6/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg'...\n"}
+[24.090257] (turtlesim) StdoutLine: {'line': b"Compiling '/home/ggmc/Documents/Prova1M6/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/__init__.py'...\n"}
+[24.090311] (turtlesim) StdoutLine: {'line': b"Compiling '/home/ggmc/Documents/Prova1M6/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color.py'...\n"}
+[24.090363] (turtlesim) StdoutLine: {'line': b"Compiling '/home/ggmc/Documents/Prova1M6/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose.py'...\n"}
+[24.090427] (turtlesim) StdoutLine: {'line': b"Listing '/home/ggmc/Documents/Prova1M6/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv'...\n"}
+[24.090475] (turtlesim) StdoutLine: {'line': b"Compiling '/home/ggmc/Documents/Prova1M6/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/__init__.py'...\n"}
+[24.090525] (turtlesim) StdoutLine: {'line': b"Compiling '/home/ggmc/Documents/Prova1M6/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill.py'...\n"}
+[24.090582] (turtlesim) StdoutLine: {'line': b"Compiling '/home/ggmc/Documents/Prova1M6/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen.py'...\n"}
+[24.090629] (turtlesim) StdoutLine: {'line': b"Compiling '/home/ggmc/Documents/Prova1M6/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn.py'...\n"}
+[24.090681] (turtlesim) StdoutLine: {'line': b"Compiling '/home/ggmc/Documents/Prova1M6/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute.py'...\n"}
+[24.090727] (turtlesim) StdoutLine: {'line': b"Compiling '/home/ggmc/Documents/Prova1M6/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative.py'...\n"}
+[24.093287] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[24.093537] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/ggmc/Documents/Prova1M6/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[24.093678] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[24.093950] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/ggmc/Documents/Prova1M6/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[24.094065] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[24.094316] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/ggmc/Documents/Prova1M6/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[24.094377] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/lib/libturtlesim__rosidl_generator_py.so\n'}
+[24.094637] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/ggmc/Documents/Prova1M6/install/turtlesim/lib/libturtlesim__rosidl_generator_py.so" to ""\n'}
+[24.094710] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/action/RotateAbsolute.idl\n'}
+[24.094826] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/msg/Color.idl\n'}
+[24.094929] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/msg/Pose.idl\n'}
+[24.095065] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/srv/Kill.idl\n'}
+[24.095169] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/srv/SetPen.idl\n'}
+[24.095270] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/srv/Spawn.idl\n'}
+[24.095336] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.idl\n'}
+[24.095397] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/srv/TeleportRelative.idl\n'}
+[24.095459] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/action/RotateAbsolute.action\n'}
+[24.095523] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/msg/Color.msg\n'}
+[24.095583] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/msg/Pose.msg\n'}
+[24.095642] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/srv/Kill.srv\n'}
+[24.095733] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/srv/Kill_Request.msg\n'}
+[24.095797] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/srv/Kill_Response.msg\n'}
+[24.095855] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/srv/SetPen.srv\n'}
+[24.095917] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/srv/SetPen_Request.msg\n'}
+[24.095977] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/srv/SetPen_Response.msg\n'}
+[24.096038] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/srv/Spawn.srv\n'}
+[24.096099] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/srv/Spawn_Request.msg\n'}
+[24.096160] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/srv/Spawn_Response.msg\n'}
+[24.096222] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.srv\n'}
+[24.096285] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Request.msg\n'}
+[24.096359] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Response.msg\n'}
+[24.096423] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/srv/TeleportRelative.srv\n'}
+[24.096484] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/srv/TeleportRelative_Request.msg\n'}
+[24.096714] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/srv/TeleportRelative_Response.msg\n'}
+[24.096757] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/lib/turtlesim/turtlesim_node\n'}
+[24.101845] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/ggmc/Documents/Prova1M6/install/turtlesim/lib/turtlesim/turtlesim_node" to ""\n'}
+[24.102029] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/lib/turtlesim/turtle_teleop_key\n'}
+[24.102842] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/ggmc/Documents/Prova1M6/install/turtlesim/lib/turtlesim/turtle_teleop_key" to ""\n'}
+[24.102970] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/lib/turtlesim/draw_square\n'}
+[24.105299] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/ggmc/Documents/Prova1M6/install/turtlesim/lib/turtlesim/draw_square" to ""\n'}
+[24.105372] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/lib/turtlesim/mimic\n'}
+[24.107432] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/ggmc/Documents/Prova1M6/install/turtlesim/lib/turtlesim/mimic" to ""\n'}
+[24.107494] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/images\n'}
+[24.107549] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/images/crystal.png\n'}
+[24.107612] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/images/ardent.png\n'}
+[24.107667] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/images/galactic.png\n'}
+[24.107719] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/images/foxy.png\n'}
+[24.107773] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/images/eloquent.png\n'}
+[24.107825] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/images/bouncy.png\n'}
+[24.107879] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/images/rolling.png\n'}
+[24.107941] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/images/dashing.png\n'}
+[24.108005] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/images/humble.png\n'}
+[24.108050] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/launch\n'}
+[24.108107] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/launch/multisim.launch.py\n'}
+[24.108152] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim\n'}
+[24.108207] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim\n'}
+[24.108265] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh\n'}
+[24.108345] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv\n'}
+[24.108415] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/environment/path.sh\n'}
+[24.108487] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/environment/path.dsv\n'}
+[24.108557] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/local_setup.bash\n'}
+[24.108627] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/local_setup.sh\n'}
+[24.108699] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/local_setup.zsh\n'}
+[24.108766] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/local_setup.dsv\n'}
+[24.108836] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/package.dsv\n'}
+[24.108928] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/ament_index/resource_index/packages/turtlesim\n'}
+[24.109020] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport.cmake\n'}
+[24.109092] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport-noconfig.cmake\n'}
+[24.109167] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[24.109237] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[24.109310] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cppExport.cmake\n'}
+[24.109380] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[24.109447] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[24.109520] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport.cmake\n'}
+[24.109589] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[24.109661] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport.cmake\n'}
+[24.109727] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[24.109798] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[24.109864] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[24.109937] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport.cmake\n'}
+[24.110003] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[24.110073] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport.cmake\n'}
+[24.110139] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport-noconfig.cmake\n'}
+[24.110212] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/cmake/rosidl_cmake-extras.cmake\n'}
+[24.110281] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[24.110353] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[24.110417] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[24.110483] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[24.110554] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[24.110629] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[24.110693] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake\n'}
+[24.110753] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake\n'}
+[24.110841] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ggmc/Documents/Prova1M6/install/turtlesim/share/turtlesim/package.xml\n'}
+[24.112482] (turtlesim) CommandEnded: {'returncode': 0}
+[24.187003] (-) TimerEvent: {}
+[24.265374] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 0}
+[24.265801] (-) EventReactorShutdown: {}

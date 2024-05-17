@@ -1,0 +1,6 @@
+Invoking command in '/home/ggmc/Documents/Prova1M6/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ggmc/Documents/Prova1M6/src/ros_tutorials/turtlesim -DCMAKE_INSTALL_PREFIX=/home/ggmc/Documents/Prova1M6/install/turtlesim
+Invoked command in '/home/ggmc/Documents/Prova1M6/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ggmc/Documents/Prova1M6/src/ros_tutorials/turtlesim -DCMAKE_INSTALL_PREFIX=/home/ggmc/Documents/Prova1M6/install/turtlesim
+Invoking command in '/home/ggmc/Documents/Prova1M6/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ggmc/Documents/Prova1M6/build/turtlesim -- -j8 -l8
+Invoked command in '/home/ggmc/Documents/Prova1M6/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ggmc/Documents/Prova1M6/build/turtlesim -- -j8 -l8
+Invoking command in '/home/ggmc/Documents/Prova1M6/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ggmc/Documents/Prova1M6/build/turtlesim
+Invoked command in '/home/ggmc/Documents/Prova1M6/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ggmc/Documents/Prova1M6/build/turtlesim
