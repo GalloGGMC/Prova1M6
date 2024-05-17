@@ -2,7 +2,7 @@
 
 from collections import deque
 import argparse
-from src.ros_tutorials.turtlesim.movClass import Movimento
+from src.movClass import Movimento
 import rclpy
 
 
